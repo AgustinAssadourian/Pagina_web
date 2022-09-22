@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header {
+    display: flex;
+    background: linear-gradient(to bottom, #536976, #24283e);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 40px;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    height: 90%;
+}
+.navbar,
+.listado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    gap: 100px;
+}
+.listado {
+    gap: 30px;
+}
+.listado a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.carrito {
+    padding: 12px 18px;
+    margin-top: 3px;
+    height:60px;
+    font-weight: 300;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    background: linear-gradient(to top, #536976,  #24283e );
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#hero {
+    display: flex ;
+    margin-top: 65px;
+    padding: 75px 0;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.hero-info h1 {
+    font-size: 40px;
+    width: 80%;
+    min-width: 400px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.hero-info p {
+    font-size: 14px;
+    width: 70%;
+    color: #d8d1f7;
+}
+.hero-info img {
+
+}
+.hero-fundador {
+    display: flex;
+    background: #24283e;
+    border-radius: 15px;
+    padding: 25px;
+    width: 700px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.hero-fundador h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+.hero-fundador p {
+    font-size: 15px;
+    font-style: italic;
+}
+
