@@ -101,4 +101,14 @@ main {
     font-size: 15px;
     font-style: italic;
 }
+.call a {
+    display: flex;
+    color: #ffffff ;
+    background-color: #24283e;
+    width: 400px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
 
