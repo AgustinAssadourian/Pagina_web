@@ -9,7 +9,7 @@
 }
 header {
     display: flex;
-    background: linear-gradient(to bottom, #536976, #24283e);
+    background: linear-gradient(to top, #000000,  #434343 );
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,7 @@ header {
     gap: 30px;
 }
 .listado a {
-    color: rgb(255, 255, 255);
+    color: #d2d0c9;
     font-size: 20px;
 }
 .carrito {
@@ -46,7 +46,7 @@ header {
 }
 main {
     display: flex;
-    background: linear-gradient(to top, #536976,  #24283e );
+    background: linear-gradient(to bottom, #000000,  #434343 );
     color: white;
     flex-direction: column;
     justify-content: center;
@@ -55,60 +55,202 @@ main {
 }
 #hero {
     display: flex ;
-    margin-top: 65px;
-    padding: 75px 0;
-    max-width: 1200px;
+    margin-top: 25px;
+    padding: 20px 0;
+    max-width: 1400px;
     justify-content: center;
     align-items: center;
 }
 .hero-info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     width: 50%;
 }
+.hero-info img {
+    height: 300px;
+    width: 700px;
+}
 .hero-info h1 {
-    font-size: 40px;
-    width: 80%;
+    display: flex;
+    font-size: 45px;
+    width: 85%;
     min-width: 400px;
     font-weight: 800;
-    color: rgb(255, 255, 255);
+    color: #ffa909;
 }
 .hero-info p {
-    font-size: 14px;
-    width: 70%;
-    color: #d8d1f7;
+    font-size: 15px;
+    width: 85%;
+    color: #ffffff;
 }
-.hero-info img {
-
+.hero-info p > span {
+    color: #ffa909;
+    font-weight: 800;
+}
+.call {
+    display: flex;
+    color: #ffa909 ;
+    background-color: #2b1d02;
+    width: 300px;
+    padding: 10px 0px;
+    border-radius: 3rem;
+    font-size: 15px;
+    justify-content: center;
+    border: 1px solid #cbb365;
 }
 .hero-fundador {
     display: flex;
-    background: #24283e;
-    border-radius: 15px;
-    padding: 25px;
-    width: 700px;
+    background: #2b1d02;
+    border-radius: 2rem;
+    padding: 10px;
+    width: 600px;
     align-items: center;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
 }
 .hero-fundador h3 {
-    font-size: 25px;
-    color: #ffffff;
+    font-size: 22px;
+    color: #cbb365;
 }
 .hero-fundador p {
     font-size: 15px;
     font-style: italic;
 }
-.call a {
+
+#cards {
+    padding: 70px 0;
+    max-width: 1400px;
     display: flex;
-    color: #ffffff ;
-    background-color: #24283e;
-    width: 400px;
-    padding: 8px 0px;
-    border-radius: 10px;
-    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #2b1d02;
+    border-radius: 3rem;
+}
+#cards h2 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #231905;
+    border-radius: 2rem;
+    justify-content: center;
+    width: 800px;
+    font-size: 30px;
+    font-weight: 800;
+    color:white ;
+    border: 1px solid #cbb365;
+}
+#cards h2 > span {
+    color: #ffa909;
+    padding-left: 8px;
+}
+#card-p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
     text-align: center;
+
 }
 
+.info-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.info-card {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    padding: 40px 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #20180d;
+    border-radius: 2rem;
+    gap: 10px;
+
+}
+#logo-sierras {
+    width: 90px;
+    height: 80px;
+}
+#logo-cerveceria {
+    width: 80px;
+    height: 60px;
+}
+#logo-fabrica {
+    width: 70px;
+    height: 70px;
+}
+.info-card h3{
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffa909;
+}
+.info-card > p {
+    font-size: 14px;
+    color: #d2d0c9;   
+}
+.devices-opt {
+    padding: 70px 0;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    border-radius: 3rem;
+}
+.devices-opt h3 {
+    font-size: 50px;
+    background-color: #434343;
+    color: #cbb365;
+    border-radius: 3rem;
+    width: 600px;
+    text-align: center;
+    border: 1px solid #cbb365;
+}
+.variedades {
+    display: flex;
+    align-items: center;
+}
+.variedades img {
+    width: 300px;
+    height: 300px;
+}
+.variedades h4 {
+    font-size: 30px;
+    color: #cbb365;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.variedades p {
+    font-size: 15px;
+    color: #d2d0c9;
+}
+.footer-links {
+   display: flex;
+   background-color: #434343;
+   color: #cbb365;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   padding: 60px 0;
+}
+.footer-links a {
+    color: #cbb365;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-links li > span {
+font-size: 20px;
+color: #cbb365;
+font-weight: 800;
+}
