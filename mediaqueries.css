@@ -11,6 +11,9 @@ header {
     width: 850px;
     position: fixed;
 }
+.logo {
+    padding-left: 250px;
+}
 .navbar ul{
     display: none;
 }
@@ -25,12 +28,15 @@ header {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+   width: 300px;
 }
 #cards p {
     flex-wrap: wrap;
+    width: 80%;
 }
 .devices-opt h3 {
         font-size: 20px;
+        width: 300px;
 }
 .variedades {
     flex-direction: column;
