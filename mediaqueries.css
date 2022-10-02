@@ -1,0 +1,44 @@
+
+@media (max-width:992px){
+.hero-fundador{
+    display: none;
+}
+
+}
+@media (max-width:576px){
+header {
+    background: linear-gradient(to top, #000000,  #434343 );
+    width: 850px;
+    position: fixed;
+}
+.navbar ul{
+    display: none;
+}
+.carrito {
+    display: none;
+}
+.hero-info img {
+   display: none;
+}
+#cards h2{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#cards p {
+    flex-wrap: wrap;
+}
+.devices-opt h3 {
+        font-size: 20px;
+}
+.variedades {
+    flex-direction: column;
+}
+.variedades p{
+    display: none;
+}
+#cards h2{
+    max-width: 320px;
+}
+}

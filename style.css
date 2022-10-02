@@ -43,6 +43,9 @@ header {
     height:60px;
     font-weight: 300;
     cursor: pointer;
+    border: 2px solid #cbb365;
+    border-radius: 2rem;
+    background: #000000;
 }
 main {
     display: flex;
@@ -208,7 +211,7 @@ main {
     border-radius: 3rem;
 }
 .devices-opt h3 {
-    font-size: 50px;
+    font-size: 25px;
     background-color: #434343;
     color: #cbb365;
     border-radius: 3rem;
@@ -236,7 +239,7 @@ main {
 }
 .footer-links {
    display: flex;
-   background-color: #434343;
+   background-color: #2e2c2c;
    color: #cbb365;
    flex-direction: column;
    justify-content: center;
